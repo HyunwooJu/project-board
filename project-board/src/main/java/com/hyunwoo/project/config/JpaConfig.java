@@ -13,7 +13,7 @@ public class JpaConfig {
 
     @Bean
     public AuditorAware<String> auditorAware(){
-        return () -> Optional.of(value:"hyunwoo"); // TODO: 스프링 시큐리티로 인증 기능을 붙이게 될 떄, 수정하자
+        return () -> Optional.of("hw"); // TODO: 스프링 시큐리티로 인증 기능을 붙이게 될 떄, 수정하자
     }
 
 }
