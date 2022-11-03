@@ -1,13 +1,3 @@
-#spring.datasource.url=jdbc:mysql://localhost:3306/board
-#spring.datasource.username=hyunwoo
-#spring.datasource.password=GUSdn0211!
-## Mysql ??
-#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-#
-#
-#spring.jpa.hibernate.ddl-auto=create
-##spring.jpa.properties.hibernate.show_sql=True
-#spring.jpa.properties.hibernate.format_sql=True
 debug: false
 management.endpoints.web.exposure.include : "*"
 
@@ -47,3 +37,15 @@ spring:
 ##    dirverClassName: org.h2.Driver
 ##  sql.init.mode: always
 ##  test.databases.replace: none
+
+
+
+
+
+
+
+
+
+
+
+
